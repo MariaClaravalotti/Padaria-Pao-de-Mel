@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(242, 146, 11);
+  display: flex;
+  justify-content: space-evenly;
+}
+main{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #E6B75A;
+}
+
+img {
+  width: 15vw;
+  height: 25vh;
+}
+
+ul {
+  width: 50%;
+  height: 25vh;
+  display: flex;
+  width: 35vw;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.3rem;
+
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+button {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#d0451b;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+  text-shadow:inset 0px 1px 0px #854629;
+  background:linear-gradient(#d0451b, #d0451b);
+}
+
+button:hover {
+  background: linear-gradient(#d0451b, #d0451b);
+}
+  
+
+
+.card {
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin: 2rem;
+  
+  
+}
+.lixo{
+  height: 10vh;
+  width: 10vw;
+}
+footer{
+  height: 30vh;
+  background-color: rgb(242, 146, 11);
+  color: #fff;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+
+}
